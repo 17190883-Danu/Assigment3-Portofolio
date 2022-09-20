@@ -9,9 +9,9 @@ import Experience from './pages/Experience';
 import Interest from './pages/Interest';
 import Skills from './pages/Skills';
 
-function App() {
-  
-  return (
+class App extends Component {
+  render() {
+      return (
     <div className="App">
       <Router>
         <Navbar/>
@@ -26,6 +26,7 @@ function App() {
     </Router>
     </div>
   );
+}
 }
 
 export default App;
