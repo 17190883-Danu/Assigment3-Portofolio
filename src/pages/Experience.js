@@ -5,7 +5,8 @@ class Experience extends Component {
     render() {
         return (
         <div className="Experience">
-        <h1>Ini Exp GUA</h1>
+        <h1>EXPERIENCE</h1>
+        Untuk saat ini belum memiliki experience dan masih berstatus dalam mahasiswa. 
         </div>
         )
     }

@@ -10,6 +10,7 @@ import Interest from './pages/Interest';
 import Skills from './pages/Skills';
 
 function App() {
+  
   return (
     <div className="App">
       <Router>

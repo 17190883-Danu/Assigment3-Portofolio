@@ -6,7 +6,7 @@ class Navbar extends Component {
         return (
         <div className="Navbar">
             <div className="images">
-            <img src="images/sma.jpg" />
+            <img src="images/profil.jpg" />
         <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>

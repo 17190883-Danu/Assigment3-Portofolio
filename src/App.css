@@ -6,7 +6,6 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  /* width: 300px; */
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -29,3 +28,124 @@ nav{
   font-weight: 600;
 }
 
+.nav ul {
+  list-style: none;
+}
+  li {
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(#FFF, 0.35);
+    display: block;
+    transition: all ease-out 300ms;
+  }
+
+
+/* Home */
+  .container{
+    width: 800px;
+    margin: auto;
+  }
+  .Home{
+    position: relative;
+  }
+  h2{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    color: rgb(17, 8, 8);
+    font-size: 40px;
+  }
+  h3{
+    position: absolute;
+    left: 400px;
+    top: 440px;
+    color: yellow;
+    font-size: 40px;
+  }
+  h4{
+    position: absolute;
+    left: 400px;
+    top: 480px;
+    color: rgb(229, 63, 13);
+    font-size: 40px;
+  }
+
+  /* About */
+  .About{
+    position: absolute;
+    left: 300px;
+  }
+
+  /* Skills */
+  .Css{
+    position: absolute;
+    left: 400px;
+    top: 282px;
+    color: rgb(17, 8, 8);
+    font-size: 40px;
+  }
+
+  .Java{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    color: rgb(17, 8, 8);
+    font-size: 40px;
+  }
+
+  .Php{
+    position: absolute;
+    left: 600px;
+    top: 165px;
+    color: rgb(17, 8, 8);
+    font-size: 40px;
+  }
+
+  .Html{
+    position: absolute;
+    left: 700px;
+    top: 115px;
+    color: rgb(17, 8, 8);
+    font-size: 40px;
+  }
+
+  .Persen{
+    position: absolute;
+    left: 900px;
+    top: 115px;
+    color: rgb(17, 8, 8);
+    font-size: 40px;
+  }
+
+  /* Interest */
+  .Interest{
+    position: absolute;
+    left: 300px;
+  }
+
+  /* Awards */
+  .Awards{
+    position: absolute;
+    left: 500px;
+  }
+
+  /* .aw1{
+    width: 100px;
+    height: 50px;
+  } */
+
+  .aw2{
+    width: 100px;
+    height: 500px;
+  }
+
+  .aw3{
+    width: 100px;
+    height: 500px;
+  }
+
+  .aw4{
+    width: 100px;
+    height: 500px;
+  }
